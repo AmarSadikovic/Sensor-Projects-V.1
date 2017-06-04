@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.af6851.project2.ShowMapFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:text="@string/group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="26sp" />
+
+    <TextView
+        android:text="name of group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGroupname"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <fragment
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        tools:ignore="RtlHardcoded"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="400dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/button_unregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUnRegister"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/button_randomCord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRandomCord"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>

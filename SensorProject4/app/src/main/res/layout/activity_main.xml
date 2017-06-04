@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="se.mah.af6851.sensorproject4.MainActivity"
+    android:orientation="vertical"
+    android:background="#D4CEDB">
+
+    <TextView
+        android:text="Logged in as: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLoggedIn"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/compass"
+        android:id="@+id/compass_image"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Steps:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSteps"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Steps per second:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvStepsPerS"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="RESET STEPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnResetSteps" />
+
+</LinearLayout>

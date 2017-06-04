@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Description"> Proceed by choosing one of the two methods to display the current weather in Malmö</string>
+    <string name="IntroText"> If you have all 3 sensors in your application this application will be showing
+        you what the current temperature, pressure and humidity is at your current location. Then the application will be comparing the readings
+        from your sensor with the temperature, pressure and humidity that was acquired by the openWeather api.</string>
+</resources>

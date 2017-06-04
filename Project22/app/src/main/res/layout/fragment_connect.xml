@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.af6851.project2.ConnectFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/user_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etUserName" />
+
+    <TextView
+        android:text="@string/group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etGroupName" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:id="@+id/lvGroups" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:text="@string/button_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRefresh"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/button_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnConnect"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
