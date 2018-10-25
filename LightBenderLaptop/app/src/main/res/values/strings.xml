@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LightBenderLaptop</string>
+    <string name="title_message">Select a brightness</string>
+    <string name="very_low">Very low</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="very_high">Very high</string>
+</resources>
